@@ -1,7 +1,8 @@
 #include<iostream>
+using namespace std;
 int main()
 {
-    std :: cout<<"hi there,nandini here"<<"\n";
-    std :: cout<<"hi there,nandini here";
+    cout<<"hi there,nandini here"<<"\n";
+    cout<<"hi there,nandini here";
 
 };
