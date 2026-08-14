@@ -1,15 +1,15 @@
 /*
+A B C D E
+A B C D
+A B C
+A B
 A
- A B
- A B C
- A B C D
- A B C D E
 */
 #include<bits/stdc++.h>
 using namespace std;
 int main()
 {
-    for (char i='A';i<='E';i++)
+    for (char i='E';i>='A';i--)
     {
         for (char j='A';j<=i;j++)
       {
