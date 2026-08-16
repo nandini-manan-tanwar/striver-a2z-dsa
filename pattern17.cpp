@@ -1,4 +1,8 @@
 /*
+         A
+       A B A
+     A B C B A
+   A B C D C B A
 */
 #include<bits/stdc++.h>
 using namespace std;
