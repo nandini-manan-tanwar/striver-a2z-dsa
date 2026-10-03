@@ -71,9 +71,29 @@ void learning_sorting()
      
       return false;
     }
+  
+  int built_in_popcount()
+  {
+    cout<<"------------------------"<<endl;
+   int num=2;
+  
+   int jnt= __builtin_popcount(num);
+   cout<<jnt<<endl;
+   return jnt;
+  }
 
-
-
+void permutating()
+{
+  cout<<"------------------------"<<endl;
+  string s="564";
+  sort(s.begin(),s.end());
+  
+  do 
+  {
+   cout<<s<<endl;
+  }while (next_permutation(s.begin(),s.end()));
+  
+}
  
 
 
@@ -81,6 +101,8 @@ int main()
 {
     learning_sorting();
     pair<int,int> c[]={{2,3},{1,2},{2,2}};
+    built_in_popcount();
+    permutating();
     return 0;
     
 }
