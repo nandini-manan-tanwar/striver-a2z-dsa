@@ -73,9 +73,27 @@ void armstrong()
   
 }
 
+void divisors()
+{
+ int num;
+ cout<<"enter your number"<<endl;
+ cin>>num;
+ int n=1;
+
+do
+ {
+  if(num%n==0)
+    cout<<n<<endl;
+   
+    n++;
+  
+}while (n<=num);
+}
+
 int main()
 {
   revnumber();
   isPalindrome(121);
   armstrong();
+  divisors();
 }
