@@ -89,6 +89,23 @@ do
   
 }while (n<=num);
 }
+void prime_number()
+{
+  int num;
+ cout<<"enter your number"<<endl;
+ cin>>num;
+ int n=1;
+
+do
+ {
+  if(num/n==1&&num/n==num)
+    cout<<n<<endl;
+   
+    n++;
+  
+}while (n<=num);
+}
+
 
 int main()
 {
